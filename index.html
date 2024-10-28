@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sumaiya_portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: rgb(10, 10, 72);
+      color: white;
+      font-family: "poppins" sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 90px;
+      background-color: rgb(27, 27, 78);
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li a:hover {
+      color: rgb(176, 176, 246);
+      font-size: 1.02rem;
+    }
+    main hr{
+        border:0;
+        background-color: rgb(125, 125, 228);
+        height:1.2px;
+        margin:60px 84px;
+    }
+    .left {
+      font-size: 1.5rem;
+    }
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 130px 0;
+    }
+    .firstsection > div {
+      width: 30%;
+    }
+    .leftsection {
+      font-size: 3rem;
+    }
+    .leftsection .button{
+        padding: 50px 0;
+
+    }
+    .leftsection .btn {
+        padding: 12px;
+        background:#1e2167;
+        color:rgb(220, 215, 215);
+        border:2px solid white;
+        border-radius:6px;
+        font-size: 20px;
+        cursor:pointer;
+
+    }
+    .rightsection img {
+      width: 80%;
+      border-radius: 180px;
+    }
+    .purple {
+      color: rgb(194, 46, 194);
+    }
+    #element {
+      color: rgb(194, 46, 194);
+    }
+    .secondsection{
+        max-width: 80vw;
+        margin:auto;
+        height: 60vh;
+    }
+    .secondsection h1{
+        font-size: 1.9rem;
+    }
+    .secondsection .box{
+        background:white;
+        width:80vw;
+        height: 2px;
+        margin: 100px 0;
+        display: flex;
+    }
+    .secondsection .vertical{
+        height:93px;
+        width:1px;
+        background-color: white;
+        margin:0 80px;
+    }
+    .image-top{
+        width: 80px;
+        position: relative;
+        top: -35px;
+        left: -9px;
+    }
+    .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 16px;
+        
+    }
+    .vertical-desc{
+        position:relative;
+        top: 88px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+    }
+ /* Section Styling */
+.thirdsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center align items vertically */
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Heading Styles */
+.thirdsection .h1 {
+  margin-bottom: 30px; /* Adds space below the heading */
+  text-align: center;
+}
+
+.thirdsection h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Button Container */
+.thirdsection-buttons {
+  display: flex; /* Use flexbox for button alignment */
+  justify-content: space-between; /* Align buttons to the edges */
+  width: 100%; /* Full width of the section */
+  max-width: 500px; /* Max width to prevent stretching */
+  margin-top: 50px; /* Space above the buttons */
+}
+
+/* Button Styles */
+/* Button Styles */
+.btn {
+  background-color: darkblue; /* Green background */
+  color: white;              /* White text */
+  padding: 10px 125px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Removes the underline from the link */
+}
+
+.btn:hover {
+  background-color:blue/* Darker green on hover */
+}
+.btn1 {
+  background-color: rgb(16, 16, 50);
+  color: white;              
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Removes underline */
+  flex: 1; /* Make buttons flexible to take up available space */
+  margin: 0 350px; /* Reduced space between buttons */
+  text-align: center;
+}
+
+
+.btn1:hover {
+  background-color: rgb(131, 131, 227);
+}
+
+/* Optional: Adjust spacing for left and right buttons */
+.section-left {
+  margin-right: auto; /* Pushes the left button to the left */
+}
+
+.section-right {
+  margin-left: auto; /* Pushes the right button to the right */
+}
+footer {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 50px 0;
+        text-align: center;
+      }
+      footer .footer-links {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+      }
+      footer .footer-links li {
+        margin: 0 20px;
+      }
+      footer .footer-links li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+      footer .footer-links li a:hover {
+        color: #f0e130;
+      }
+      .footer-rights {
+        margin-top: 20px;
+        color: gray;
+      }
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .contact-info div {
+        margin: 0 15px;
+        display: flex;
+        align-items: center;
+      }
+      .contact-info i {
+        margin-right: 8px;
+      }
+  </style>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+/></head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sumiaya's porfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href= "index.html">Home</a></li>
+            <li><a href= "about.html">About</a></li>
+            <li><a href= "#" id="skills-link">Skills</a></li>
+            <li><a href= "https://drive.google.com/file/d/1EV4FhMfaM7_jHf9NJx-HP6I5qO2A48p-/view?usp=sharing">Projects</a></li>
+            <li><a href= "#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+              Hi, My name is <span class="purple">Sumaiya</span>
+              <div>and I am a passionate</div>
+              <span id="element"></span>
+              <div class="button">
+                <a href="resume.pdf" download>
+                  <button class="btn">Download Resume</button>
+                </a>
+              </div>
+            </div>
+        <div class="rightsection">
+          <img src="main.jpg" alt="" >
+        </div>
+      </section>
+      <hr>
+      
+      <section class="secondsection">
+        <span class="text">
+            <h1 style="text-align: center;">OTBI Internship as Web developer</h1>
+        </span>
+        <h2 style="text-align: center;">Skills I learned at Osmania Technology Bussiness incubator(OTBI) as an intern</h2>
+        <div class="box">
+            <div class="vertical">
+                <img  class="image-top"src="html.jpg" alt=""width="28px" height="28px">
+                <div class="vertical-title">Html</div>
+            <div class="vertical-desc">Has a good skills in HTML</div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top"src="css.jpg" alt=""width="28px" height="28px">
+                <div class="vertical-title">CSS</div>
+            <div class="vertical-desc">With the use of css made many designs to webpages</div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top"src="js.jpg" alt=""width="80px" height="29px">
+                <div class="vertical-title">Javascript</div>
+            <div class="vertical-desc">With the use of Javascript i have made calculation in waterfootprint calculator </div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top"src="py.jpg" alt=""width="28px" height="28px">
+                <div class="vertical-title">Python</div>
+            <div class="vertical-desc">Has an intermediate knowledge in python</div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top"src="php.jpg" alt=""width="28px" height="28px">
+                <div class="vertical-title">PHP</div>
+            <div class="vertical-desc">Used in backend to connect database</div>
+            </div>
+            <div class="vertical">
+                <img  class="image-top"src="sql.jpg" alt=""width="28px" height="28px">
+                <div class="vertical-title">MYSQL</div>
+            <div class="vertical-desc">used in backend to store data information in database</div>
+            </div>      
+            <div class="vertical">
+                <img  class="image-top"src="node.jpg" alt="" width="28px" height="28px">
+                <div class="vertical-title">Node.js</div>
+            <div class="vertical-desc">used in college project for real time project</div>
+            </div>      
+        </div>
+        </div>
+      </section>
+      <hr>
+      <section class="thirdsection" id="thirdsection">
+        <div class="h1">
+          <h2>Projects</h2>
+        </div>
+        
+        <div class="section-left">
+          <a href="https://drive.google.com/file/d/10HMIa5wXv5lD6J8tukkR6bL-0L564nN8/view?usp=sharing" class="btn1" target="_blank">Water Footprint Calculator</a>
+        </div>
+        
+        <div class="section-right">
+          <a href="https://drive.google.com/file/d/1EV4FhMfaM7_jHf9NJx-HP6I5qO2A48p-/view?usp=sharing" class="btn1" target="_blank">Osmania Hub Website</a>
+        </div>
+      </section>
+      <hr>
+      <footer>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-phone"></i>
+            <span>7893217261</span>
+          </div>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <span>sumaiyamohammed494@gmail.com</span>
+          </div>
+          <div>
+            <i class="fab fa-linkedin"></i>
+            <span><a href="https://www.linkedin.com/in/mohammed-sumaiya-1b2b0b246" style="color: white; text-decoration: none;">LinkedIn</a></span>
+          </div>
+        </div>
+        <div class="footer-rights">
+          Copyright &#169; sumaiyaportfolio.com | All rights reserved
+        </div>
+      </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Fullstack Developer", "Web designer", "Web Developer"],
+        typeSpeed: 50,
+      });
+
+      document.getElementById('skills-link').addEventListener('click', function() {
+        document.querySelector('.firstsection').style.display = 'none';
+        document.getElementById('skills-section').classList.add('active');
+      });
+
+      // Reset to home
+      document.getElementById('home-link').addEventListener('click', function() {
+        document.querySelector('.firstsection').style.display = 'flex';
+        document.getElementById('skills-section').classList.remove('active');
+      });
+    </script>
+  </body>
+</html>

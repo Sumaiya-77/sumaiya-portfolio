@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumaiya's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: linear-gradient(to right, #0a0a48, #08080f);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.6;
+      }
+      nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 90px;
+      background-color: rgb(27, 27, 78);
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li a:hover {
+      color: rgb(176, 176, 246);
+      font-size: 1.02rem;
+    }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 100px 0;
+        text-align: center;
+      }
+      .leftsection {
+        max-width: 45%;
+      }
+      .leftsection h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #f0e130;
+      }
+      .leftsection p {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+      }
+      .btn {
+        padding: 12px 25px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .btn:hover {
+        background: #f0e130;
+        color: black;
+        transform: scale(1.05);
+      }
+      .rightsection img {
+        width: 300px;
+        height: 300px;
+        border-radius: 280px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+      }
+      .about-me-section, .skills-section {
+        display: none;
+        max-width: 80vw;
+        margin: auto;
+        padding: 50px 0;
+        text-align: center;
+      }
+      .skills-section.active {
+        display: block;
+      }
+      .skills-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #f0e130;
+      }
+      .skills-section p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        margin-bottom: 15px;
+        color: rgb(210, 210, 255);
+      }
+      footer {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 50px 0;
+        text-align: center;
+      }
+      footer .footer-links {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+      }
+      footer .footer-links li {
+        margin: 0 20px;
+      }
+      footer .footer-links li a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+      footer .footer-links li a:hover {
+        color: #f0e130;
+      }
+      .footer-rights {
+        margin-top: 20px;
+        color: gray;
+      }
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .contact-info div {
+        margin: 0 15px;
+        display: flex;
+        align-items: center;
+      }
+      .contact-info i {
+        margin-right: 8px;
+      }
+    </style>
+  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sumaiya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#" id="skills-link">Skills</a></li>
+            <li><a href="https://drive.google.com/file/d/1EV4FhMfaM7_jHf9NJx-HP6I5qO2A48p-/view?usp=sharing">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <h1>About Me</h1>
+          <p>
+            Hello, I'm Sumaiya, a passionate Fullstack Developer with a knack for
+            building functional and aesthetically pleasing web applications.
+          </p>
+          <p>
+            I love solving problems through code and enjoy designing intuitive and
+            user-friendly interfaces. Whether working on the frontend or backend, I
+            deliver high-quality solutions.
+          </p>
+        </div>
+        <div class="rightsection">
+          <img src="logo.jpg" alt="Profile Image" />
+        </div>
+      </section>
+
+      <section class="skills-section" id="skills-section">
+        <h1>My Skills</h1>
+        <p>
+          During my time as a Web Developer intern at the Osmania Technology Business
+          Incubator (OTBI), I honed my skills in HTML, CSS, JavaScript, PHP, and MySQL.
+        </p>
+        <p>
+          I worked on projects like a Water Footprint Calculator, and the Osmania Hub Website
+          for the Mathematics Department of Osmania University, delivering a modern platform
+          for students and faculty.
+        </p>
+        <p>
+          In my free time, I also learned Python, which I’m really excited about. I enjoy
+          exploring its potential for web development and automation.
+        </p>
+        <p>
+          I have a deep interest in learning new technologies and staying updated with the
+          latest trends in web development. When I'm not coding, you’ll find me traveling
+          and exploring new places, which fuels my creativity.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+      <div class="contact-info">
+        <div>
+          <i class="fas fa-phone"></i>
+          <span>7893217261</span>
+        </div>
+        <div>
+          <i class="fas fa-envelope"></i>
+          <span>sumaiyamohammed494@gmail.com</span>
+        </div>
+        <div>
+          <i class="fab fa-linkedin"></i>
+          <span><a href="https://www.linkedin.com/in/mohammed-sumaiya-1b2b0b246" style="color: white; text-decoration: none;">LinkedIn</a></span>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; sumaiyaportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('skills-link').addEventListener('click', function() {
+        document.querySelector('.firstsection').style.display = 'none';
+        document.getElementById('skills-section').classList.add('active');
+      });
+
+      // Reset to home
+      document.getElementById('home-link').addEventListener('click', function() {
+        document.querySelector('.firstsection').style.display = 'flex';
+        document.getElementById('skills-section').classList.remove('active');
+      });
+    </script>
+  </body>
+</html>
