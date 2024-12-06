@@ -1,0 +1,3 @@
+Personal Portfolio Website - Built with HTML, CSS, and JavaScript
+
+This is my personal portfolio website, designed to highlight my journey as a Front-End Developer. Built using HTML, CSS, and JavaScript, it features a modern, responsive design optimized for all devices. The portfolio showcases my skills, projects, and achievements, including my experience working on impactful projects like the Water Footprint Calculator during my internship at OTBI. As a recent postgraduate in Mathematics and Computer Science, I am passionate about creating dynamic and user-friendly web experiences. This portfolio reflects my dedication to exploring new technologies and my eagerness to contribute to the digital world.
