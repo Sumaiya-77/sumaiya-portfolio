@@ -1,1 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(10, 10, 72);
+    color: white;
+    font-family: "poppins" sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(27, 27, 78);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(176, 176, 246);
+    font-size: 1.02rem;
+  }
+  main hr{
+      border:0;
+      background-color: rgb(125, 125, 228);
+      height:1.2px;
+      margin:60px 84px;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+  }
+  .firstsection > div {
+    width: 30%;
+  }
+  .leftsection {
+    font-size: 3rem;
+  }
+  .leftsection .button{
+      padding: 50px 0;
 
+  }
+  .leftsection .btn {
+      padding: 12px;
+      background:#1e2167;
+      color:rgb(220, 215, 215);
+      border:2px solid white;
+      border-radius:6px;
+      font-size: 20px;
+      cursor:pointer;
+
+  }
+  .rightsection img {
+    width: 80%;
+    border-radius: 180px;
+  }
+  .purple {
+    color: rgb(194, 46, 194);
+  }
+  #element {
+    color: rgb(194, 46, 194);
+  }
+  .secondsection{
+      max-width: 80vw;
+      margin:auto;
+      height: 60vh;
+  }
+  .secondsection h1{
+      font-size: 1.9rem;
+  }
+  .secondsection .box{
+      background:white;
+      width:80vw;
+      height: 2px;
+      margin: 100px 0;
+      display: flex;
+  }
+  .secondsection .vertical{
+      height:93px;
+      width:1px;
+      background-color: white;
+      margin:0 80px;
+  }
+  .image-top{
+      width: 80px;
+      position: relative;
+      top: -35px;
+      left: -9px;
+  }
+  .vertical-title{
+      position: relative;
+      top: 75px;
+      width: 150px;
+      font-size: 16px;
+      
+  }
+  .vertical-desc{
+      position:relative;
+      top: 88px;
+      color: gray;
+      width: 150px;
+      font-size: 9px;
+  }
+/* Section Styling */
+.thirdsection {
+display: flex;
+flex-direction: column;
+align-items: center;  /* Center align items vertically */
+justify-content: center;
+padding: 40px;
+border-radius: 10px;
+color: white;
+}
+
+/* Heading Styles */
+.thirdsection .h1 {
+margin-bottom: 30px; /* Adds space below the heading */
+text-align: center;
+}
+
+.thirdsection h2 {
+font-size: 32px;
+color: white;
+font-weight: bold;
+}
+
+/* Button Container */
+.thirdsection-buttons {
+display: flex; /* Use flexbox for button alignment */
+justify-content: space-between; /* Align buttons to the edges */
+width: 100%; /* Full width of the section */
+max-width: 500px; /* Max width to prevent stretching */
+margin-top: 50px; /* Space above the buttons */
+}
+
+/* Button Styles */
+/* Button Styles */
+.btn {
+background-color: darkblue; /* Green background */
+color: white;              /* White text */
+padding: 10px 125px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+text-decoration: none; /* Removes the underline from the link */
+}
+
+.btn:hover {
+background-color:blue/* Darker green on hover */
+}
+.btn1 {
+background-color: rgb(16, 16, 50);
+color: white;              
+padding: 15px 25px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none; /* Removes underline */
+flex: 1; /* Make buttons flexible to take up available space */
+margin: 0 350px; /* Reduced space between buttons */
+text-align: center;
+}
+
+
+.btn1:hover {
+background-color: rgb(131, 131, 227);
+}
+
+/* Optional: Adjust spacing for left and right buttons */
+.section-left {
+margin-right: auto; /* Pushes the left button to the left */
+}
+
+.section-right {
+margin-left: auto; /* Pushes the right button to the right */
+}
+footer {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 50px 0;
+      text-align: center;
+    }
+    footer .footer-links {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+    footer .footer-links li {
+      margin: 0 20px;
+    }
+    footer .footer-links li a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    footer .footer-links li a:hover {
+      color: #f0e130;
+    }
+    .footer-rights {
+      margin-top: 20px;
+      color: gray;
+    }
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .contact-info div {
+      margin: 0 15px;
+      display: flex;
+      align-items: center;
+    }
+    .contact-info i {
+      margin-right: 8px;
+    }
